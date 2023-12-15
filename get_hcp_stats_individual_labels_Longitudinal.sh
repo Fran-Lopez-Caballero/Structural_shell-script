@@ -1,5 +1,5 @@
 #! /bin/sh -ex
-#Get freesurfer MRI Anatomical ROI Statistics for longitudinal struct comparisons
+# Get freesurfer MRI Anatomical ROI Statistics for longitudinal struct comparisons
 
 # 1) Since longitudinal-comparisons-ready files (e.g. xxxx.long.xxxx_Long_C) are modified relative to the original HCPproc files, we define HCP rois for them using the original ones from HCPproc but ajusting for any potential differences between the two files using mri_surf2surf.
 # 2) Once that is done, the extraction of structural values to a .txt for plotting purposes follows the same procedures than in any traditional analysis
